@@ -1,0 +1,16 @@
+{
+  "name": "chat-server",
+  "version": "1.0.0",
+  "description": "server",
+  "main": "index.js",
+  "author": "killi8n",
+  "license": "MIT",
+  "dependencies": {
+    "esm": "^3.2.22",
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  },
+  "scripts": {
+    "start:dev": "nodemon -r esm ./src/app.js"
+  }
+}
